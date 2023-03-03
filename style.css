@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:ital@1&display=swap');
+
+/* Estilo do corpo da página */
+
+body {
+	margin: 10px;
+	padding: 5% 0% 0% 0%;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 600;
+	background-color: black;
+	color: aliceblue;
+}
+
+
+.cabecalho{
+	font-family: 'Roboto Mono', monospace;
+	text-decoration: none;
+}
+.navegacao{
+	font-size: 24px;
+	text-align: center;
+	text-decoration: none;
+}
+.navegacao__menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 5%;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 600;
+	text-decoration: none;
+	
+}
+.apresentacao{
+
+}
+.apresentacao__conteudo{
+	text-align: justify;
+	row-gap: 50px;
+
+}
+/* Estilo do rodapé */
+footer {
+	background-color: #120163;
+	padding: 20px;
+	color: #fff;
+	text-align: justify;
+	font-size: 18px;
+}
